@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "astro dev",
     "check": "astro check",
-    "build": "astro build && find dist -type f -exec sed -i 's/example\\.com//g; s/localhost//g' {} +",
+    "build": "astro build",
     "preview": "astro preview",
     "deploy": "astro build && wrangler deploy"
   },

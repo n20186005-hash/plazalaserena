@@ -1,0 +1,16 @@
+{
+  "name": "Plaza de Armas de La Serena - Guía del visitante",
+  "short_name": "Plaza La Serena",
+  "description": "Guía del visitante de la Plaza de Armas de La Serena, en La Serena, Región de Coquimbo, Chile.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4efe6",
+  "theme_color": "#102a43",
+  "lang": "es-CL",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
