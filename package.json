@@ -1,0 +1,29 @@
+{
+  "name": "la-serena-guia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro build && find dist -type f -exec sed -i 's/example\\.com//g; s/localhost//g' {} +",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.10",
+    "@astrojs/cloudflare": "14.3.1",
+    "@astrojs/sitemap": "3.7.4",
+    "astro": "7.3.2",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.13",
+    "tailwindcss": "4.1.13",
+    "wrangler": "4.131.2"
+  },
+  "packageManager": "pnpm@11.24.0",
+  "engines": {
+    "node": ">=22.13.0 <23"
+  }
+}
